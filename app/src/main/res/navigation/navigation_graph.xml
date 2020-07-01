@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment_graph">
+
+
+    <fragment
+        android:id="@+id/mainFragment_graph"
+        android:name="com.example.learnkotlin.view.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_createPersonFragment"
+            app:destination="@id/createPersonFragment_graph" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createPersonFragment_graph"
+        android:name="com.example.learnkotlin.view.CreatePersonFragment"
+        android:label="CreatePersonFragment"
+        tools:layout="@layout/create_person_fragment"/>
+
+    <fragment
+        android:id="@+id/showPersonsFragment"
+        android:name="com.example.learnkotlin.view.ShowPersonsFragment"
+        android:label="ShowPersonsFragment"
+        tools:layout="@layout/show_list_persons_fragment"/>
+
+
+</navigation>
