@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LearnKotlin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_main">Записная книжка</string>
+    <string name="new_person">Новая запись</string>
+    <string name="show_person">Показать записи</string>
+    <string name="name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="number">Номер телефона</string>
+    <string name="create_contact">Создать контакт</string>
+    <string name="search_person">Поиск</string>
+    <string name="message_create_person">Запись сделана</string>
+    <string name="delete_all_data">Удалить данные</string>
+</resources>
